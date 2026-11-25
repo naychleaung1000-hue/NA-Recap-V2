@@ -12,7 +12,7 @@ jobs:
         with:
           distribution: "temurin"
           java-version: "17"
-      - uses: android-actions/setup-android@v3
+      - uses: 
       - name: Build Debug APK
         run: gradle assembleDebug --no-daemon
       - uses: actions/upload-artifact@v4
